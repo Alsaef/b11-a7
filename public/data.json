@@ -1,0 +1,56 @@
+[
+    {
+      "id": 1,
+      "title": "Vintage Leica M3 Camera",
+      "currentBidPrice": "3,500",
+      "timeLeft": "2 Days left",
+      "bidsCount":"12",
+      "image": "https://i.ibb.co.com/Y4hzb2H6/Bid1-min.png",
+      "description": "A classic 35mm rangefinder camera known for its precision mechanics and legendary build quality, beloved by photographers and collectors."
+    },
+    {
+      "id": 2,
+      "title": "1965 Gibson SG Standard Electric Guitar",
+      "currentBidPrice": "4,200",
+      "timeLeft": "2 Days left",
+      "bidsCount":"17",
+      "image": "https://i.ibb.co.com/V0dh3SDv/Bid2-min.png",
+      "description": "An iconic rock guitar with a sleek double-cutaway body and powerful humbuckers, played by legends like Angus Young and Tony Iommi."
+    },
+    {
+      "id": 3,
+      "title": "Original Apple Macintosh 128K (1984)",
+      "currentBidPrice": "5,500",
+      "bidsCount":"21",
+      "timeLeft": "2 Days left",
+      "image": "https://i.ibb.co.com/x8KdCkps/Bid3-min.png",
+      "description": "Apple's revolutionary personal computer that introduced the graphical user interface to the masses. A pivotal moment in tech history."
+    },
+    {
+      "id": 4,
+      "title": "Rolex Submariner 16610",
+      "currentBidPrice": "8,000",
+      "bidsCount":"22",
+      "timeLeft": "2 Days left",
+      "image": "https://i.ibb.co.com/j9HvNqPh/Bid4-min.png",
+      "description": "A timeless luxury dive watch with unmatched durability, precision, and style. A must-have piece for watch enthusiasts."
+    },
+    {
+      "id": 5,
+      "title": "First Edition 'The Great Gatsby' by F. Scott Fitzgerald",
+      "currentBidPrice": "10,000",
+      "bidsCount":"32",
+      "timeLeft": "2 Days left",
+      "image": "https://i.ibb.co.com/q3f2Z1ZD/Bid6-min.png",
+          "description": "A rare first edition of one of America's greatest novels, capturing the essence of the Jazz Age and the American Dream."
+    },
+    {
+      "id": 6,
+      "title": "Mid-Century Modern Eames Lounge Chair",
+      "currentBidPrice": "4,500",
+      "bidsCount":"12",
+      "timeLeft": "2 Days left",
+      "image": "https://i.ibb.co.com/FSWTw2M/Bid7-min.png"
+    }
+  ]
+  
