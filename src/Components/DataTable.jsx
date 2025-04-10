@@ -9,7 +9,8 @@ const DataTable = ({ datas, setFavirites, setTotalPrice }) => {
     setclick((pre) => [...pre, id])
     setFavirites((pre) => [...pre, data])
 
-    setTotalPrice(prevTotalPrice => prevTotalPrice + parseFloat(data.currentBidPrice));
+    const price = parseFloat(data.currentBidPrice.replace(/,/g, ''));
+    setTotalPrice(prevTotalPrice => prevTotalPrice + price);
     toast.success('Item Add Your Favorite List')
   }
   return (

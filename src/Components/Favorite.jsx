@@ -5,7 +5,8 @@ const Favorite = ({ favorites, totalPrice, setFavirites, setTotalPrice }) => {
     const handelRemove = (id, price) => {
         const removeitem = favorites.filter(removeId => removeId.id !== id)
         setFavirites(removeitem)
-        setTotalPrice(prevTotalPrice => prevTotalPrice - parseFloat(price));
+        const priceTotal = parseFloat(price.replace(/,/g, ''));
+        setTotalPrice(prevTotalPrice => prevTotalPrice - priceTotal);
         toast.warn('Item Remove Your Favorite List')
     }
     return (
@@ -59,8 +60,8 @@ const Favorite = ({ favorites, totalPrice, setFavirites, setTotalPrice }) => {
                 </div>
 
                 <div className='flex items-center justify-between mt-3 px-3'>
-                    <h2 className='text-2xl'>Total bids Amount</h2>
-                    <h2 className='text-2xl'>$ <span>{totalPrice.toFixed(2)}</span></h2>
+                    <h2 className='text-xxl'>Total bids Amount</h2>
+                    <h2 className='text-xxl'>$ <span>{totalPrice.toFixed(2)}</span></h2>
                 </div>
             </div>
         </div>
